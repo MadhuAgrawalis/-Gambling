@@ -13,7 +13,16 @@ namespace Gambling
             int check = bet_num.Next(0, 100);
             Console.WriteLine("Started ");
             Console.WriteLine("check");
-           
+
+        
+        if (Bet == check)
+            {
+            Console.WriteLine("you Win");
+            }
+          else 
+           {
+            Console.WriteLine("Loss");
+            }
         }
 
         public static void Main(string[] args)
